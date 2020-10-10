@@ -17,7 +17,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @ExtendWith(MockitoExtension.class)
 class FeaturesRepositoryTest {
 
-    public final EasyRandom easyRandom = new EasyRandom();
+    private final EasyRandom easyRandom = new EasyRandom();
 
     @Mock
     FeaturesRepositoryImporter importer;
